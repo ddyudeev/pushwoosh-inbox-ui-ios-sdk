@@ -4,9 +4,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/PushwooshInboxUI.svg)](https://cocoapods.org/?q=pushwooshinboxui)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Enterprise-level feature. For more info, please contact [Pushwoosh Support](https://www.pushwoosh.com/contact-us/)
-
-## How To Get Started
+You are welcome to contact [Pushwoosh Support](https://www.pushwoosh.com/contact-us/) if you have any questions regarding Pushwoosh Message Inbox.
 
 ## Communication
 
@@ -16,9 +14,9 @@ Enterprise-level feature. For more info, please contact [Pushwoosh Support](http
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
 
-## Installation
+## Implementation
 
-PushwooshInboxUI supports multiple methods for installing the library in a project.
+PushwooshInboxUI supports multiple methods of installing the library into your project.
 
 ### Installation with CocoaPods
 
@@ -68,17 +66,17 @@ github "Pushwoosh/pushwoosh-inbox-ui-ios-sdk" ~> 5.5
 
 Run `carthage` to build the framework and drag the built `PushwooshInboxUI.framework` into your Xcode project.
 
-### To show Inbox UI in your app you can:
+### To show Inbox UI in your app, you can:
 
-* Create PWIInboxViewController with default style
+* Create `PWIInboxViewController` with the default style
 ```swift
 PWIInboxUI.createInboxController(with: PWIInboxStyle.default())
 ```
-* Just specify custom class PWIInboxViewController for your UIViewController in storyboard or xib
+* Specify custom `PWIInboxViewController` class for your `UIViewController` in the storyboard or XIB
 
-#### If you need customize style PWIInboxViewController, you can see this class [PWIInboxStyle](https://github.com/Pushwoosh/pushwoosh-inbox-ui-ios-sdk/tree/master/Documentation)
+#### If you'd like to customize PWIInboxViewController design, please see this class for details: [PWIInboxStyle](https://github.com/Pushwoosh/pushwoosh-inbox-ui-ios-sdk/master/Documentation/PWIInboxStyle.md)
 
-https://github.com/Pushwoosh/pushwoosh-inbox-ui-ios-sdk/tree/master/Documentation
+You can change all parameters of PWIInboxStyle to make the inbox match your app's design.
 
 #### Change Log
 
